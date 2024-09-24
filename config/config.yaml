@@ -1,0 +1,6 @@
+display:
+  text: "tkm!!"
+  font_scale: 2
+  color: [0, 0, 255]  # Rojo en formato BGR
+  position: [50, 100]
+  thickness: 2

@@ -1,0 +1,14 @@
+import unittest
+from hand_gesture import HandGestureDetector
+
+class TestHandGestureDetector(unittest.TestCase):
+
+    def test_heart_gesture_detection(self):
+        detector = HandGestureDetector()
+        # Aquí puedes añadir pruebas para verificar que el detector identifica correctamente el gesto de corazón.
+        # Por ejemplo, si tienes ejemplos de landmarks predefinidos que deberían ser reconocidos como corazón.
+        landmarks = [...]  # Aquí pondrías un conjunto de landmarks predefinidos que formen un corazón
+        self.assertTrue(detector.is_heart_gesture(landmarks))
+
+if __name__ == '__main__':
+    unittest.main()
